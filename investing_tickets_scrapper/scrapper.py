@@ -40,7 +40,7 @@ class Scrapper():
         """
        
         if country not in self.countries:
-            raise ValueError("Country is not avaible, check if you typed correctly and with . Check all countries available in Scrapper().countries_available()")
+            raise ValueError("Country is not avaible. Check all countries available in Scrapper().countries_available()")
         else:
             self.country = country
             
@@ -88,7 +88,7 @@ class Scrapper():
         for column in columns:
             column = column.text
             list_columns.append(column)
-        list_columns = list_columns[1:-1]
+
 
         
         #Locate Table and change page
@@ -122,8 +122,8 @@ class Scrapper():
                 frame.append(line)        
        
         df = pd.DataFrame(frame)
-        df = df[df.columns[1:-1]]
         df.columns = list_columns
+        df = df[df.columns[1:-1]]
         self.df = df
         
     def return_dataframe(self):
@@ -133,14 +133,3 @@ class Scrapper():
         
         return self.df
     
-if __name__ == "__main__":
-    scrapper = Scrapper()
-    
-    
-    CHROMEDRIVER_PATH = "C:\Program Files (x86)\chromedriver.exe"
-    COUNTRY = "Brazil"
-    
-    scrapper.config(chromedriver_path = CHROMEDRIVER_PATH, country=COUNTRY)
-    scrapper.scrap()    
-    df = scrapper.return_dataframe()    
-        
