@@ -19,19 +19,6 @@ driver.maximize_window()
 
 driver.switch_to.window(driver.window_handles[0])  
 
-# counter = 0
-# while True:
-
-    # driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-
-    # element = WebDriverWait(driver, 60).until(
-        # EC.presence_of_element_located((By.ID, "maisVagas"))
-    # )
-    # element.click()
-    
-    # time.sleep(1)
-
-
 
     
     

@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: investing-tickets-scrapper
-Version: 0.0.2
-Summary: Scraps stocks tickets from "Investing.com" using Selenium
+Version: 0.0.3
+Summary: Scraps stock tickets from "Investing.com" using Selenium and parse using BeautifulSoup
 Home-page: UNKNOWN
 Author: Lucas Rocha
 Author-email: lucasrocha.png@gmail.com

@@ -66,6 +66,8 @@ class Scrapper():
         #driver.maximize_window()
         driver.switch_to.window(driver.window_handles[0])  
         
+        #Wait for close sing up page
+        # close_bar = WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.CLASS_NAME, "popupCloseIcon largeBannerCloser")))
         
         #Locate index bar and set the country
         bar = WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.XPATH, "/html/body/div[5]/section/div[6]/div[1]/a/input")))
@@ -87,6 +89,8 @@ class Scrapper():
             column = column.text
             list_columns.append(column)
 
+
+        
         #Locate Table and change page
         tables = []
         while True:
