@@ -1,7 +1,8 @@
 LICENSE.txt
 README.md
 setup.py
-investing-tickets-scrapper/__init__.py
+investing_tickets_scrapper/__init__.py
+investing_tickets_scrapper/investing_tickets_scrapper.py
 investing_tickets_scrapper.egg-info/PKG-INFO
 investing_tickets_scrapper.egg-info/SOURCES.txt
 investing_tickets_scrapper.egg-info/dependency_links.txt

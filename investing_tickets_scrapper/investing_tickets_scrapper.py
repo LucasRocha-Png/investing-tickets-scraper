@@ -127,6 +127,10 @@ class Scrapper():
         self.df = df
         
     def return_dataframe(self):
+        """
+        Return dataframe
+        """
+        
         return self.df
     
 if __name__ == "__main__":

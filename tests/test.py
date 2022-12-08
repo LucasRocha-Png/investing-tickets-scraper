@@ -1,0 +1,1 @@
+from investing_tickets_scrapper import Scrapper
