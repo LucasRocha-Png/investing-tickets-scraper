@@ -34,6 +34,4 @@ scrapper.scrap() # It will open the Google Chrome and scrap it. Is recommended n
 # Return the data as a pandas dataframe
 df = scrapper.return_dataframe()
 print(df) # df
-
-#
 ```
