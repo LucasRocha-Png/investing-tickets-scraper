@@ -73,7 +73,7 @@ class Scrapper():
         bar = WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.XPATH, "/html/body/div[5]/section/div[6]/div[1]/a/input")))
         bar.clear()
         bar.send_keys(self.country)
-        time.sleep(2)
+        time.sleep(0.5)
         bar.send_keys(Keys.ARROW_DOWN)
         time.sleep(0.5)
         bar.send_keys(Keys.ENTER)
@@ -123,7 +123,6 @@ class Scrapper():
        
         df = pd.DataFrame(frame)
         df.columns = list_columns
-        df = df[df.columns[1:-1]]
         self.df = df
         
     def return_dataframe(self):
