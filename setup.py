@@ -7,7 +7,7 @@ with open("README.md", "r") as rdm:
 # Setting up
 setup(
     name="investing_tickets_scrapper",
-    version='0.0.3',
+    version='0.0.4',
     author="Lucas Rocha",
     author_email="lucasrocha.png@gmail.com",
     description=DESCRIPTION,

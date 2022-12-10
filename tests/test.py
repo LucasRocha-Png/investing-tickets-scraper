@@ -7,7 +7,7 @@ scrapper = Scrapper()
 
 # Configurates the scrapper
 scrapper.config(chromedriver_path="C:\Program Files (x86)\chromedriver.exe", # Chromedriver_path = chromedriver for Selenium, if you don't know what is it, check this video "https://youtu.be/Xjv1sY630Uc" and install it
-                country="United States")  # Country = the country you want to scrap the tickeks. To check all countries available you can use "print(scrapper.contries_available())"
+                country="Argentina")  # Country = the country you want to scrap the tickeks. To check all countries available you can use "print(scrapper.contries_available())"
                                                                                                       
 
 
