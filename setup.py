@@ -6,14 +6,14 @@ with open("README.md", "r") as rdm:
 
 # Setting up
 setup(
-    name="investing_tickets_scrapper",
-    version='0.0.4',
+    name="investing_tickets_scraper",
+    version='0.0.1',
     author="Lucas Rocha",
     author_email="lucasrocha.png@gmail.com",
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
-    packages=["investing_tickets_scrapper"],
+    packages=["investing_tickets_scraper"],
     install_requires=['pandas>=1.3.3', 'selenium>=4.1.3', 'beautifulsoup4>=4.4.1'],
     keywords=['python', 'tickers', 'index', 'stocks', 'exchange', 'investing'],
     classifiers=[

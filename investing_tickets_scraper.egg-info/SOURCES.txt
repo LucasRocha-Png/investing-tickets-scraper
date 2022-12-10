@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+investing_tickets_scraper/__init__.py
+investing_tickets_scraper/scraper.py
+investing_tickets_scraper.egg-info/PKG-INFO
+investing_tickets_scraper.egg-info/SOURCES.txt
+investing_tickets_scraper.egg-info/dependency_links.txt
+investing_tickets_scraper.egg-info/requires.txt
+investing_tickets_scraper.egg-info/top_level.txt

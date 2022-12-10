@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 
 
 
-class Scrapper():    
+class Scraper():    
     def __init__(self):
         """
         Import the list of countries available and set other variables
@@ -36,11 +36,11 @@ class Scrapper():
         
     def config(self, chromedriver_path, country):
         """
-        Set the configuration for the scrapper
+        Set the configuration for the scraper
         """
        
         if country not in self.countries:
-            raise ValueError("Country is not avaible. Check all countries available in Scrapper().countries_available()")
+            raise ValueError("Country is not avaible. Check all countries available in Scraper().countries_available()")
         else:
             self.country = country
             
@@ -83,7 +83,7 @@ class Scrapper():
         Scrap investing.com site
         """
         if self.chromedriver_path == None or self.country == None:
-            raise ValueError("chromedriver_path and country are equal to None. Set chomedriver_path and country at Scrapper().config()")
+            raise ValueError("chromedriver_path and country are equal to None. Set chomedriver_path and country at Scraper().config()")
         
         #Configure Selenium
         chrome_options = ChromeOptions()
