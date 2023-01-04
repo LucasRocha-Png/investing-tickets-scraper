@@ -1,4 +1,4 @@
-from .scraper import Scraper
+from .src.scraper import Scraper
 
 VERSION = (1, 0, 0)
 
