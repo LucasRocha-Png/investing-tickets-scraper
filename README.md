@@ -11,7 +11,7 @@ pip install investing-tickets-scraper
 
 ```python
 # Import the library
-from investing_tickets_scraper.scraper import Scraper
+from investing_tickets_scraper import Scraper
 import pandas as pd
 
 # Create the object scraper using the imported class
