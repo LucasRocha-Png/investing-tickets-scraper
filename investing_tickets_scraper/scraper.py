@@ -22,7 +22,7 @@ class Scraper():
         """
         
         self.folder = os.path.dirname(__file__)
-        self.countries = pd.read_csv(f"{self.folder}\\countries_available.csv")["Countries"].to_list()
+        self.countries = pd.read_csv(f"{self.folder}/countries_available.csv")["Countries"].to_list()
         self.chromedriver_path = None
         self.country = None
         self.df = None
@@ -87,7 +87,7 @@ class Scraper():
         
         #Configure Selenium
         chrome_options = ChromeOptions()
-        chrome_options.add_extension(f"{self.folder}\\adblock.crx")
+        chrome_options.add_extension(f"{self.folder}/adblock.crx")
         driver = webdriver.Chrome(self.chromedriver_path, options=chrome_options)
         
         #Open the page
