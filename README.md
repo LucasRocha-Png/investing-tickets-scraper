@@ -7,13 +7,6 @@ Installing "investing-tickets-scraper" from pypi (recomended).
 pip install investing-tickets-scraper
 ```
 
-#### or
-
-Installing "investing-tickets-scraper" using the repository.
-```bash
-pip install -e .
-```
-
 ## How to use
 
 ```python
